@@ -1,0 +1,41 @@
+#grad{
+    transform: rotate(5deg);
+    width: 100px;
+    height: 100px;
+    transition: height 0.5s;
+    background-image:linear-gradient(to top, green, yellow)
+             
+    
+}
+#grad:hover{
+    width: 500px;
+    height: 500px;
+    
+}
+
+#second{ 
+    background-color: brown;
+}
+#second:hover{
+   background-color: red;
+
+}
+#third{ 
+    width: 100px; 
+    height: 100px;
+   transition: all 2s;  
+   background-color: yellow;        
+ }
+ 
+#third:hover{
+    height: 200px; 
+    width: 200px;
+    padding: 20px;
+    background-color: cyan;
+}
+#forth:hover{
+    width: 500px;
+    height: 500px;
+    transform: rotate(15deg);
+
+}
